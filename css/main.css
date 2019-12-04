@@ -1,3 +1,11 @@
+:root {
+    --mainBlue:#36369A;
+    --cgBlue:#0471a6;
+    --LightCobaltBlue:#89AAE6;
+    --mainWhite:#ffffff;  
+    --mainBlack:#010202;
+}
+
 body{
     font-family: 'Montserrat', sans-serif;
 }
