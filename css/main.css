@@ -1,5 +1,5 @@
 :root {
-    --mainBlue:#36369A;
+    --mainBlue:#192bc2;
     --cgBlue:#0471a6;
     --LightCobaltBlue:#89AAE6;
     --mainWhite:#f1fffa;  
@@ -8,5 +8,20 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
-    background:
+    background: var(--mainWhite);
 }
+
+.icon-top{
+    background:var(--mainBlue);
+}
+
+.icon-top a{
+    color:var(--mainWhite);
+    font-size:25px;
+    transition:color 1s ease-out;
+}
+
+.icon-top a:hover{
+    color:var(--mainBlack);
+}
+
