@@ -25,3 +25,24 @@ body{
     color:var(--mainBlack);
 }
 
+/*#########navbar##############*/
+
+.navbar{
+    background: var(--mainBlack);
+    padding:10px 20px;
+    transition:padding 2s ease
+}
+.navbar-background{
+    padding:2px 20px;
+        
+}
+.navbar-brand{
+    color:var(--mainWhite);
+    border:3px solid var(--mainBlue);
+    font-size:35px;
+    transition:all 1s ease-in-out;
+}
+.navbar-brand:hover{
+    background:var(--mainWhite);
+    color:var(--mainBlack);
+}
